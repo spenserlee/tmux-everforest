@@ -28,6 +28,10 @@ set -g @tmux-everforest 'dark-medium' # Sets the option to select the theme. Als
 # Add '-xterm' to the back of the name for xterm256 compatibility
 # E.g. 'dark-medium-xterm'
 
+# This fork also adds a 'dark-harder' variant: identical to dark-medium but
+# with a darker background dim (bg_dim = #1E2327).
+# set -g @tmux-everforest 'dark-harder'
+
 ```
 
 ## Look and Feel
@@ -49,6 +53,7 @@ set -g @tmux-everforest 'dark-medium' # Sets the option to select the theme. Als
     - [x] Soft
     - [x] Medium
     - [ ] Hard
+    - [x] Harder
 - xterm256 version
   - Light
     - [ ] Soft
